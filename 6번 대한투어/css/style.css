@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+#wrap{
+    width: 1200px;
+    height: 700px;
+    background-color: aqua;
+}
+#header{
+    width: 1200px;
+    height: 100px;
+    background-color: lightslategrey;
+}
+#header>#logo{
+    float: left;
+    width: 200px;
+    height: 100px;
+    background-color: lime;
+}
+#header>#nav{
+    float: left;
+    width: 1000px;
+    height: 100px;
+    background-color: limegreen;
+}
+
+#slide{
+    width: 1200px;
+    height: 300px;
+    background-color: mediumseagreen;
+}
+
+#contents{
+    width: 1200px;
+    height: 200px;
+    background-color: mediumslateblue;
+}
+#contents>#notice{
+    float: left;
+    width: 400px;
+    height: 200px;
+    background-color: olive;
+}
+#contents>#galary{
+    float: left;
+    width: 400px;
+    height: 200px;
+    background-color: olivedrab;
+}
+#contents>#go{
+    float: left;
+    width: 400px;
+    height:200px;
+    background-color: palegreen;
+}
+
+#footer{
+    width: 1200px;
+    height: 100px;
+    background-color: green;
+}
+#footer>#copyright{
+    float: left;
+    width: 1000px;
+    height: 100px;
+    background-color:seagreen
+}
+#footer>#sns{
+    float: left;
+    width: 200px;
+    height: 50px;
+    background-color: papayawhip;
+}
+#footer>#family-site{
+    float: left;
+    width: 200px;
+    height: 50px;
+    background-color: peachpuff;
+}
