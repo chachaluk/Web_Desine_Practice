@@ -1,0 +1,21 @@
+#footer>#logo2>img{
+    padding-top: 20px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+#copyright>#address{
+    float: right;
+    padding-right: 5px;
+    padding-top: 13px;
+    box-sizing: border-box;
+}
+#bottom-menu>ul>li{
+    float: right;
+    padding-top: 13px;
+    padding-right: 5px;
+    box-sizing: border-box;
+    margin-left: 5px;   
+}
+#bottom-menu>ul>li>a{
+    color: #222328;
+}
