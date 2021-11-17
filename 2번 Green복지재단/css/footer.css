@@ -1,0 +1,18 @@
+#footer>#logo2{
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+#footer>#copyright{
+    text-align: center;
+    padding-top: 35px;
+    box-sizing: border-box;
+}
+#family-site>ul{
+    position: relative;
+    top: 20px;
+    left: 60px;
+}
+#family-site>ul>li{
+    float: left;
+    margin-right:10px ;
+}

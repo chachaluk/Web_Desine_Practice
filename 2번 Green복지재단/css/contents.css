@@ -1,0 +1,73 @@
+#tab{
+    width: 390px;
+    height: 190px;
+    background-color:#fff;
+}
+#tab>#tab-btn{
+    width: 380px;
+    height: 40px;
+    background-color:#fff;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+#tab>#tab-btn>a{
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+    padding-top: 10px;
+    background-color:#fff;
+    text-align: center;
+    box-sizing: border-box;
+    color: #222328;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: solid 1px #222328;
+}
+
+#tab>#tab-contents{
+    width: 380px;
+    height: 145px;
+    background-color:#fff;
+}
+#notice{
+    width: 375px;
+    height: 140px;
+    background-color:#fff;
+}
+#notice>li>a{
+    display: block;
+    width: 370px;
+    height: 27px;
+    background-color:#fff;
+    font-size:15px;
+    border: solid 1px #222328;
+}
+#notice>li>a>span:first-child{
+    width: 270px;
+    height: 27px;
+    float: left;
+    background-color:#fff;
+}
+#notice>li>a>span:nth-child(2){
+    width: 95px;
+    height: 27px;
+    background-color:#fff;
+    float: left;
+}
+
+#cont2>img{
+    float: left;
+    width: 130px;
+    height: 190px;
+    position: relative;
+    left: 5px;
+    top: 5px;
+}
+
+#cont3>img{
+    width: 390px;
+    height: 190px;
+    position: relative;
+    left: 5px;
+    top: 5px;
+}
