@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+#wrap{
+    width: 1200px;
+    height: 700px;
+    background-color: aqua;
+}
+
+#header{
+    width: 1200px;
+    height: 100px;
+    background-color: khaki;
+}
+#header>#logo{
+    float: left;
+    width: 200px;
+    height: 100px;
+    background-color: lawngreen;
+}
+#header>#nav{
+    float: left;
+    width: 1000px;
+    height: 100px;
+    background-color: lemonchiffon;
+}
+
+#slide{
+    width: 1200px;
+    height: 300px;
+    background-color: lightcoral;
+}
+
+#contents{
+    width: 1200px;
+    height: 200px;
+    background-color: lightpink;
+}
+#contents>#notice{
+    float: left;
+    width: 400px;
+    height: 200px;
+    background-color: limegreen;
+}
+#contents>#banner{
+    float: left;
+    width: 400px;
+    height: 200px;
+    background-color: lightyellow;
+}
+#contents>#go{
+    float: left;
+    width: 400px;
+    height: 200px;
+    background-color: lightgreen;
+}
+
+#footer{
+    width: 1200px;
+    height: 100px;
+    background-color: lightsalmon;
+}
+#footer>#logo2{
+    float: left;
+    width: 200px;
+    height: 100px;
+    background-color: lightseagreen;
+}
+#footer>#menu{
+    float: left;
+    width: 1000px;
+    height: 50px;
+    background-color:lightskyblue;
+}
+#footer>#copyright{
+    float: left;
+    width: 1000px;
+    height: 50px;
+    background-color:lightslategray;
+}
