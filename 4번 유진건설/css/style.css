@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+#wrap{
+    width: 1200px;
+    height: 700px;
+    background-color: aqua;
+}
+
+#header{
+    width: 1200px;
+    height: 100px;
+    background-color: darkblue;
+}
+#header>#logo{
+    float: left;
+    width: 200px;
+    height: 100px;
+    background-color: darkcyan;
+}
+#header>#nav{
+    float: left;
+    width: 1000px;
+    height: 100px;
+    background-color: darkkhaki;
+}
+
+#slide{
+    width: 1200px;
+    height: 300px;
+    background-color:dodgerblue;
+}
+
+#contents{
+    width: 1200px;
+    height: 200px;
+    background-color: darkmagenta;
+}
+#contents>#notice{
+    float: left;
+    width: 400px;
+    height: 200px;
+    background-color: darkolivegreen;
+}
+#contents>#galary{
+    float: left;
+    width: 400px;
+    height: 200px;
+    background-color: darkorchid;
+}
+#contents>#go{
+    float: left;
+    width: 400px;
+    height: 200px;
+    background-color: darkslateblue;
+}
+
+#footer{
+    width: 1200px;
+    height: 100px;
+    background-color:indigo;
+}
+
+
+#footer>#left-side{
+    float: left;
+    width: 1000px;
+    height: 100px;
+    background-color:indigo;
+}
+#footer>#left-side>#menu{
+   
+    width: 1000px;
+    height: 50px;
+    background-color: goldenrod;
+}
+
+#footer>#left-side>#copyright{
+
+    width: 1000px;
+    height: 50px;
+    background-color: greenyellow;
+}
+
+#footer>#family-site{
+    float: left;
+    width: 200px;
+    height: 100px;
+    background-color:indianred;
+}
+
