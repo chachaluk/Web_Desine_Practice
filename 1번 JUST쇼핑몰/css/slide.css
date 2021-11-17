@@ -1,0 +1,12 @@
+#slide{
+    overflow: hidden;
+    /* 영역을 벗어나는 것은 숨김 */
+}
+#slide-contents{
+    width: 1200px;
+    height: 900px;
+}
+#slide-contents>img{
+    display: block;
+    /* 이미지 사이의 간격을 없애준다 */
+}

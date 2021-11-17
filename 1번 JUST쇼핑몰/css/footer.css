@@ -1,0 +1,23 @@
+#footer>#logo>img{
+    /* padding-top: 30px;
+    box-sizing: border-box; */
+    position: relative;
+    top: 20px;
+}
+#footer>#copyright>address{
+    /* padding-top: 25px;
+    text-align: center;
+    box-sizing: border-box; */
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+#sns>ul{
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+#sns>ul>li{
+    float: left;
+    margin-right:7px ;
+}

@@ -1,0 +1,54 @@
+
+#header>#logo{
+    padding-top: 30px;
+    box-sizing: border-box; /* 패딩 늘어남 방지(패딩 크기를 내부에 포함시키는 것 */
+    
+}
+#nav{
+    padding-top: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+#nav>#gnb{
+    float: right;
+    border: solid 1px #222328;
+}
+#gnb>li{
+    float: left;
+}
+#gnb>li>a{/*a태그는 inline이라서 가로세로 크기적용이 안된다*/
+    display: block;
+    width: 100px;
+    height: 40px;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 8px;
+    box-sizing: border-box;
+    color: #222328;
+}
+/* display: inline, block, inline-block */
+/* 
+inline: 가로세로 크기 적용 안됨, 글자크기만큼 잡힘
+block: 가로세로 크기 적용 됨, 세로배치
+inline-block: 가로세로 크기 적용 됨, 가로배치
+*/
+
+#gnb li a:hover{
+    color: #fff;
+    background-color: #222328;
+}
+/* 띄어쓰기: gnb n칸 아래 */
+
+#lnb>li>a{
+    display: block;
+    width: 100px;
+    height: 40px;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 8px;
+    box-sizing: border-box;
+    color: #222328;
+}
+#lnb{
+    display: none;
+}

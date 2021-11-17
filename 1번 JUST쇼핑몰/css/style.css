@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+#wrap{
+    width: 1200px;
+    height:700px;
+    background-color: #fff;
+    margin: 0 auto;
+    /* 위 아래 0, 오른쪽 왼쪽 자동(=가운데 정렬) */
+    /* 
+    margin: 10px;
+    4방향 다 10px
+    margin:10px 20px
+    위 아래 10px 왼쪽 오른쪽 20px
+    margin: 10px 20px 30px
+    위 10px 왼쪽 오른쪽 20px 아래 30px
+    margin: 10px 20px 30px 40px
+    위 10px 오른쪽 20px 아래 30px 왼쪽 40px
+    */
+}
+
+#header{
+    width: 1200px;
+    height:100px;
+    background-color: #fff;
+    z-index: 2;
+    position: relative;
+}
+/* 모든 요소는 기본적으로 position static, 안움직임, 정적임
+position: static, relative, absolute, fixed
+움직이려면 position:relative(absolute)
+*/
+#header>#logo{
+    float:left;
+    width: 200px;
+    height:100px;
+    background-color: #fff;
+}
+#header>#nav{
+    float:left;
+    width: 1000px;
+    height:100px;
+    background-color: #fff;
+}
+
+#slider{
+    width: 1200px;
+    height:300px;
+    background-color: #fff;
+}
+#contents{
+    width: 1200px;
+    height:200px;
+    background-color: #fff;
+}
+
+#contents>#cont1{
+    float:left;
+    width: 480px;
+    height:200px;
+    background-color: #fff;
+}
+#contents>#cont2{
+    float:left;
+    width: 360px;
+    height:200px;
+    background-color: #fff;
+}
+#contents>#cont3{
+    float:left;
+    width: 360px;
+    height:200px;
+    background-color: #fff;
+}
+#footer{
+    width: 1200px;
+    height:100px;
+    background-color: #fff;
+}
+#footer>#logo{
+    float:left;
+    width: 200px;
+    height:100px;
+    background-color: #fff;;
+}
+#footer>#copyright{
+    float:left;
+    width: 800px;
+    height:100px;
+    background-color: #fff;
+}
+#footer>#sns{
+    float:left;
+    width: 200px;
+    height:100px;
+    background-color: #fff;
+    
+}

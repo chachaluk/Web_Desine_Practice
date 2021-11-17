@@ -1,0 +1,31 @@
+#popup{
+    width: 500px;
+    height: 500px;
+    background-color: #fff;
+    position:fixed;
+    /* 화면위치고정 */
+    z-index: 9;
+    left: 350px;
+    top: 100px;
+    border-radius: 1px solid #777;
+    box-shadow: rgb(0, 0, 0, 0.5) 0 0 0 9999px;
+    /*                              x위치, y위치, 블러, 크기 */
+    display: none;
+}
+
+#popup>#head{
+    width: 500px;
+    height: 40px;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing:border-box;
+}
+#popup>#btn-area{
+    width: 500px;
+    height: 52px;
+    position: absolute;
+    bottom: 0.1px;
+    left: 449px;
+
+}
