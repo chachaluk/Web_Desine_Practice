@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+#wrap{
+    width: 1000px;
+    height: 650px;
+    background-color: aqua;
+}
+#header{
+    float: left;
+    width: 100px;
+    height: 650px;
+    background-color: powderblue;
+}
+#header>#logo{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+}
+#header>#nav{
+    width: 100px;
+    height: 550px;
+    background-color: rebeccapurple;
+}
+
+#right-side{
+    float: left;
+    width: 900px;
+    height: 650px;
+    background-color: rosybrown;
+}
+
+#right-side>#slide{
+    width: 900px;
+    height: 350px;
+    background-color: royalblue;
+}
+
+#right-side>#contents{
+    width: 900px;
+    height: 200px;
+    background-color: sandybrown;
+}
+#right-side>#contents>#cont1{
+    float: left;
+    width: 300px;
+    height: 200px;
+    background-color: seagreen;
+}
+#right-side>#contents>#cont2{
+    float: left;
+    width: 300px;
+    height: 200px;
+    background-color: sienna;
+}
+#right-side>#contents>#cont3{
+    float: left;
+    width: 300px;
+    height: 200px;
+    background-color: springgreen;
+}
+
+#right-side>#footer{
+    width: 900px;
+    height: 100px;
+    background-color: thistle;
+}
+#right-side>#footer>#copyright{
+    float: left;
+    width: 700px;
+    height: 100px;
+    background-color: steelblue;
+}
+
+#right-side>#footer>#right-side2{
+    float: left;
+    width: 200px;
+    height: 100px;
+    background-color: wheat;
+}
+
+#right-side>#footer>#right-side2>#sns{
+    width: 200px;
+    height: 50px;
+    background-color: tan;
+}
+#right-side>#footer>#right-side2>#family-site{
+    width: 200px;
+    height: 50px;
+    background-color: teal;
+}
