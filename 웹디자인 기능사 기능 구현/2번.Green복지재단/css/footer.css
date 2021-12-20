@@ -1,0 +1,16 @@
+#footer >.logo>img{
+    margin-top: 20px;
+}
+
+#footer >.copyright>address{
+    margin-top: 20px;
+}
+
+#footer > .family > select{
+    width:150px;
+    height:50px;
+    font-size:16px;
+
+    margin-left:15px;
+    margin-top:15px;
+}

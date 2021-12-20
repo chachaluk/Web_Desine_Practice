@@ -1,0 +1,74 @@
+#popup{
+    width:500px;
+    height:500px;
+    background: #ffffff;
+    left:20%;
+    top:15%;
+    z-index: 9;
+    position: absolute;
+    border:1px solid #333;
+    box-shadow : rgba(0,0,0,0.5) 0 0 0 9999px;
+    /*박스 쉐도우를 크게 만들어서 뒷 배경을 희미하게 만들어준다.*/
+    /* display:none; */
+}
+
+#popup>#closeBtn
+{
+    position: absolute;
+    left:447px;
+    top:445px;
+}
+
+#popup>div:first-child
+{
+    background: #ffffff;
+    display: inline;
+    position: relative;
+    left:180px;
+    top:20px;
+
+    font-size:20px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+#popup>p:nth-child(2)
+{
+    width:70%;
+    height:100px;
+    font-size:16px;
+    color:#333;
+
+    position: relative;
+    left:60px;
+    top:40px;
+
+    display: block;
+    background: #ffffff;
+}
+
+#popup>p:nth-child(2)>span
+{
+    color:yellow;
+    text-decoration: underline;
+    font-size:20px;
+    font-weight: bold;
+
+    position: relative;
+    left:70px;
+}
+
+#popup>p:nth-child(3)
+{
+    width:70%;
+    height:250px;
+    font-size:16px;
+    color:#333;
+
+    position: relative;
+    left:60px;
+    top:100px;
+
+    display: block;
+    background: #ffffff;
+}
